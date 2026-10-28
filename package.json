@@ -1,0 +1,26 @@
+{
+  "name": "@portfolio/trace-lite",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Lightweight observability and root-cause diagnosis platform correlating traces, logs, and causal latency anomalies",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node --test dist/*.test.js",
+    "ui": "npx serve -l 3000 ."
+  },
+  "keywords": [
+    "observability",
+    "distributed-tracing",
+    "root-cause-analysis",
+    "opentelemetry",
+    "latency-anomalies"
+  ],
+  "author": "Antigravity Engineering",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2"
+  }
+}
